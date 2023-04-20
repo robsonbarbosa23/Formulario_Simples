@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+}
+
+form, div {
+    width: 35%;
+    min-width: 350px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+
+input, textarea {
+    min-width: 320px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #c1c1c1;
+    height: 40px;
+    padding-left: 10px;
+}
+
+textarea {
+    height: 200px;
+    padding-top: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto; /*PARA ESSA FUNÇÃO FUNCIONAR O BUTTON PRECISA SER DISPLAY BLOCK*/
+    height: 40px;
+    min-width: 320px;
+    border-radius: 5px;
+    background: #7f00ff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+h1, p {
+    text-align: center;
+    margin: 10px;
+}
